@@ -107,6 +107,7 @@ int main()
     {
         std::cout << partOne(lines) << "\n";
         std::cout << partTwo(lines);
+        return 0;
     }
-    return 0;
+    return -1;
 }
