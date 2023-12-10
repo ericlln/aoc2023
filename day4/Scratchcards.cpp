@@ -5,7 +5,6 @@
 #include <regex>
 #include <algorithm>
 #include <cmath>
-#include <map>
 
 bool readInput(const std::string &name, std::vector<std::string> &lines)
 {
@@ -89,7 +88,6 @@ int partOne(std::vector<std::string> &lines)
 int partTwo(std::vector<std::string> &lines)
 {
     int sum = 0;
-    std::regex pattern("\\s{2,}"); // Two or more consecutive whitespaces
     std::vector<std::pair<int, int>> cards;
 
     for (const auto &line : lines)
